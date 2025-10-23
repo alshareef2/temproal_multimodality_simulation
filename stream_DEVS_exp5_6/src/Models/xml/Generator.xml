@@ -1,0 +1,128 @@
+	<ProbDEVS>
+
+
+	<TransitionInfo>
+		<StartState>generating</StartState>
+		<EndState>m1_state</EndState>
+		<ProbValue>1.0</ProbValue>
+		<TimeInfo>
+			<Type>Uniform</Type>
+			<Lower>1.0</Lower>
+			<Upper>1.0</Upper>
+			<Mean>1.0</Mean>
+			<Sigma>1.0</Sigma>
+			<Alpha>1.0</Alpha>
+		</TimeInfo>
+	</TransitionInfo>
+	<TransitionInfo>
+		<StartState>m1_state</StartState>
+		<EndState>generating</EndState>
+		<ProbValue>1.0</ProbValue>
+		<TimeInfo>
+			<Type>Uniform</Type>
+			<Lower>1.0</Lower>
+			<Upper>1.0</Upper>
+			<Mean>1.0</Mean>
+			<Sigma>1.0</Sigma>
+			<Alpha>1.0</Alpha>
+		</TimeInfo>
+	</TransitionInfo>
+
+	<TransitionInfo>
+		<StartState>generating</StartState>
+		<EndState>m2_state</EndState>
+		<ProbValue>1.0</ProbValue>
+		<TimeInfo>
+			<Type>Uniform</Type>
+			<Lower>1.0</Lower>
+			<Upper>1.0</Upper>
+			<Mean>1.0</Mean>
+			<Sigma>1.0</Sigma>
+			<Alpha>1.0</Alpha>
+		</TimeInfo>
+	</TransitionInfo>
+	<TransitionInfo>
+		<StartState>m2_state</StartState>
+		<EndState>generating</EndState>
+		<ProbValue>1.0</ProbValue>
+		<TimeInfo>
+			<Type>Uniform</Type>
+			<Lower>1.0</Lower>
+			<Upper>1.0</Upper>
+			<Mean>1.0</Mean>
+			<Sigma>1.0</Sigma>
+			<Alpha>1.0</Alpha>
+		</TimeInfo>
+	</TransitionInfo>
+
+	<TransitionInfo>
+		<StartState>generating</StartState>
+		<EndState>m3_state</EndState>
+		<ProbValue>1.0</ProbValue>
+		<TimeInfo>
+			<Type>Uniform</Type>
+			<Lower>1.0</Lower>
+			<Upper>1.0</Upper>
+			<Mean>1.0</Mean>
+			<Sigma>1.0</Sigma>
+			<Alpha>1.0</Alpha>
+		</TimeInfo>
+	</TransitionInfo>
+	<TransitionInfo>
+		<StartState>m3_state</StartState>
+		<EndState>generating</EndState>
+		<ProbValue>1.0</ProbValue>
+		<TimeInfo>
+			<Type>Uniform</Type>
+			<Lower>1.0</Lower>
+			<Upper>1.0</Upper>
+			<Mean>1.0</Mean>
+			<Sigma>1.0</Sigma>
+			<Alpha>1.0</Alpha>
+		</TimeInfo>
+	</TransitionInfo>
+
+
+
+
+
+
+
+
+
+
+
+
+	<TransitionInfo>
+		<StartState>generating</StartState>
+		<EndState>m4_state</EndState>
+		<ProbValue>1.0</ProbValue>
+		<TimeInfo>
+			<Type>Uniform</Type>
+			<Lower>1.0</Lower>
+			<Upper>1.0</Upper>
+			<Mean>1.0</Mean>
+			<Sigma>1.0</Sigma>
+			<Alpha>1.0</Alpha>
+		</TimeInfo>
+	</TransitionInfo>
+	<TransitionInfo>
+		<StartState>m4_state</StartState>
+		<EndState>generating</EndState>
+		<ProbValue>1.0</ProbValue>
+		<TimeInfo>
+			<Type>Uniform</Type>
+			<Lower>1.0</Lower>
+			<Upper>1.0</Upper>
+			<Mean>1.0</Mean>
+			<Sigma>1.0</Sigma>
+			<Alpha>1.0</Alpha>
+		</TimeInfo>
+	</TransitionInfo>
+
+
+
+
+
+
+	</ProbDEVS>

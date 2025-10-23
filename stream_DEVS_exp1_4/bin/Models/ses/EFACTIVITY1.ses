@@ -1,0 +1,12 @@
+From the EFACTIVITY1Sys perspective, EFACTIVITY1 is made of Generator, ACTIVITY1, and Transducer!
+
+From the EFACTIVITY1Sys perspective, Generator sends outM1 to ACTIVITY1 as inM1! 
+From the EFACTIVITY1Sys perspective, Generator sends outM2 to ACTIVITY1 as inM2! 
+From the EFACTIVITY1Sys perspective, Generator sends outM3 to ACTIVITY1 as inM3! 
+From the EFACTIVITY1Sys perspective, ACTIVITY1 sends outY to EFACTIVITY1 as outPORT!
+From the EFACTIVITY1Sys perspective, Generator sends outM4 to ACTIVITY1 as inM4! 
+From the EFACTIVITY1Sys perspective, Generator sends outM1 to Transducer as inGeneratedJobs! 
+From the EFACTIVITY1Sys perspective, Generator sends outM2 to Transducer as inGeneratedJobs! 
+From the EFACTIVITY1Sys perspective, Generator sends outM3 to Transducer as inGeneratedJobs! 
+From the EFACTIVITY1Sys perspective, ACTIVITY1 sends outY to Transducer as inProcessedJobs!
+From the EFACTIVITY1Sys perspective, Generator sends outM4 to Transducer as inGeneratedJobs! 

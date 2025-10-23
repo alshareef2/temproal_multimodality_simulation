@@ -1,0 +1,15 @@
+			<ProbDEVS>
+			<TransitionInfo>
+				<StartState>passive</StartState>
+				<EndState>active</EndState>
+				<ProbValue>1.0</ProbValue>
+				<TimeInfo>
+					<Type>Uniform</Type>
+					<Lower>0.0</Lower>
+					<Upper>1.0</Upper>
+					<Mean>1.0</Mean>
+					<Sigma>1.0</Sigma>
+					<Alpha>1.0</Alpha>
+				</TimeInfo>
+			</TransitionInfo>
+			</ProbDEVS>

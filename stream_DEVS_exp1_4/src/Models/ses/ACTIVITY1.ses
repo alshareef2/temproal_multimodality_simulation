@@ -1,0 +1,25 @@
+From the ACTIVITY1Sys perspective, ACTIVITY1 is made of t1, t2, t3, j1, j2, sync, j31, j32, BEHAVIOR1, BEHAVIOR2, t4, BEHAVIOR3, j4, drop, BEHAVIOR4, threshold, and diffusion!
+
+From the ACTIVITY1Sys perspective, ACTIVITY1 sends inM1 to t1 as inFLOW1!
+From the ACTIVITY1Sys perspective, ACTIVITY1 sends inM2 to t2 as inFLOW2!
+From the ACTIVITY1Sys perspective, ACTIVITY1 sends inM3 to t3 as inFLOW3!
+From the ACTIVITY1Sys perspective, t1 sends outFLOW4 to j1 as inFLOW4!
+From the ACTIVITY1Sys perspective, t2 sends outFLOW5 to j2 as inFLOW5!
+From the ACTIVITY1Sys perspective, j2 sends outFLOW6 to sync as inFLOW6!
+From the ACTIVITY1Sys perspective, j1 sends outFLOW7 to sync as inFLOW7!
+From the ACTIVITY1Sys perspective, sync sends outFLOW8 to ACTIVITY1 as outY!
+From the ACTIVITY1Sys perspective, ACTIVITY1 sends inM4 to t4 as inFLOW9!
+From the ACTIVITY1Sys perspective, t4 sends outFLOW10 to BEHAVIOR3 as inFLOW10!
+From the ACTIVITY1Sys perspective, t3 sends outFLOW11 to BEHAVIOR1 as inFLOW11!
+From the ACTIVITY1Sys perspective, BEHAVIOR1 sends outFLOW12 to j31 as inFLOW12!
+From the ACTIVITY1Sys perspective, BEHAVIOR1 sends outFLOW13 to j32 as inFLOW13!
+From the ACTIVITY1Sys perspective, j31 sends outFLOW14 to BEHAVIOR2 as inFLOW14!
+From the ACTIVITY1Sys perspective, BEHAVIOR2 sends outFLOW15 to sync as inFLOW15!
+From the ACTIVITY1Sys perspective, BEHAVIOR3 sends outF_95 to j4 as inF_95!
+From the ACTIVITY1Sys perspective, BEHAVIOR3 sends outF_5 to drop as inF_5!
+From the ACTIVITY1Sys perspective, j4 sends outFLOW16 to BEHAVIOR4 as inFLOW16!
+From the ACTIVITY1Sys perspective, BEHAVIOR4 sends outFLOW17 to sync as inFLOW17!
+From the ACTIVITY1Sys perspective, sync sends outFLOW18 to threshold as inFLOW18!
+From the ACTIVITY1Sys perspective, diffusion sends outFLOW19 to BEHAVIOR4 as inFLOW19!
+From the ACTIVITY1Sys perspective, threshold sends outFLOW20 to diffusion as inFLOW20!
+

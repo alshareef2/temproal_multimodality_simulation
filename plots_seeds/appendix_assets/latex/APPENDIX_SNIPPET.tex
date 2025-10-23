@@ -1,0 +1,21 @@
+%%%%%%%%%%%%%%%%%%%%%%%%% Appendix: Reporting %%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Appendix: Extended Synchronization and Reconstruction Results}
+\subsection*{A. Summary Tables}
+\input{appendix_assets/latex/table_overall.tex}
+\input{appendix_assets/latex/table_latency.tex}
+\input{appendix_assets/latex/table_drops.tex}
+
+\subsection*{B. Figures (per experiment)}
+% Replace EXP_A with your experiment folder names
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.48\textwidth]{appendix_assets/figures/exp_EXP_A__queue_time.png}
+  \includegraphics[width=0.48\textwidth]{appendix_assets/figures/exp_EXP_A__throughput_time.png}
+  \caption{Average Queue Size and Throughput over time (mean ± std across seeds).}
+\end{figure}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.48\textwidth]{appendix_assets/figures/exp_EXP_A__latency_hist.png}
+  \includegraphics[width=0.48\textwidth]{appendix_assets/figures/exp_EXP_A__latency_box.png}
+  \caption{Latency distribution and variability across seeds.}
+\end{figure}

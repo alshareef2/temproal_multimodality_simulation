@@ -1,0 +1,57 @@
+{
+  "data": {
+    "csv": "data2.csv",
+    "timestamp_col": "timestamp",
+    "timestamp_format": "%m/%d/%Y %I:%M:%S %p",
+    "feature_cols": [
+      "Air Temperature",
+      "Wet Bulb Temperature",
+      "Humidity",
+      "Rain Intensity",
+      "Interval Rain",
+      "Wind Speed",
+      "Maximum Wind Speed",
+      "Barometric Pressure",
+      "Battery Life"
+    ],
+    "window_len": 512,
+    "stride": 256,
+    "normalize": true
+  },
+  "train": {
+    "mask_drop_prob": 0.3,
+    "batch_size": 64,
+    "epochs": 10,
+    "lr": 0.002,
+    "device": "cpu",
+    "val_split": 0.1,
+    "log_every": 50,
+    "save_dir": "runs"
+  },
+  "model": {
+    "hidden": 128,
+    "depth": 4,
+    "timesteps": 500,
+    "schedule": "cosine",
+    "sampler_steps": 50
+  },
+  "sim": {
+    "drop": "bernoulli",
+    "bernoulli_p": 1.0,
+    "ge": {
+      "pG": 0.02,
+      "pB": 0.45,
+      "eta": 0.1,
+      "rho": 0.25
+    }
+  },
+  "viz": {
+    "max_points_plot": 2000,
+    "example_features": 9999
+  },
+    "eval": {
+    "causal": true,
+    "context_len": 256,
+    "sampler_steps": 30
+  }
+}
